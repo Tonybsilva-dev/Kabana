@@ -1,22 +1,9 @@
-import express from 'express'
-import path from 'path';
-import cors from 'cors';
-import { errors } from 'celebrate';
+import express from 'express';
 
-//Inicia a aplicação
 const app = express();
-//Habilita o Cors
-app.use(cors());
-//Permite o express utilizar Json
-app.use(express.json());
 
+app.get('/', (req, res) => {
+  return res.json({ message: 'Hello World' })
+})
 
-
-
-
-//função para puxar de forma estática elementos de um diretório específico
-// app.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads')))
-
-app.use(errors());
-
-app.listen(3333);
+app.listen(3333)
