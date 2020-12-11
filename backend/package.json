@@ -2,11 +2,12 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "Antônio Bernardino <tonybsilvadev@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "babel src --extensions \".js, .ts \" --out-dir dist --copy-files --no-copy-ignored",
-    "start": "node dist/server.js",
-    "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpileOnly --ignore-watch node_modules --no-notify src/server.ts",
+    "start": "node dist/server.ts",
+    "dev": "ts-node-dev -r tsconfig-paths/register --respawn --ignore-watch node_modules --no-notify src/server.ts",
     "test": "jest"
   },
   "devDependencies": {
@@ -32,6 +33,10 @@
     "typescript": "^4.1.2"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.7",
+    "mongoose-paginate": "^5.0.3",
+    "require-dir": "^1.2.0"
   }
 }
