@@ -13,7 +13,7 @@
   <a href="https://gitter.im/jlongster/prettier">
 </p>
   <p align="center">
-    <a href="https://github.com/Tonybsilva-dev/Kabana"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Tonybsilva-dev/Kabana/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Tonybsilva-dev/Kabana">View Demo</a>
