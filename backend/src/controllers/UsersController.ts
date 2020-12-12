@@ -6,7 +6,6 @@ module.exports = {
   async index (req, res) {
     const { page = 1 } = req.query
     const users = await Users.paginate({}, { page, limit: 10 })
-
     return res.json(users)
   },
 
@@ -22,7 +21,6 @@ module.exports = {
 
   async update (req, res) {
     const user = await Users.findByIdAndUpdate(req.params.id, req.body, { new: true })
-
     return res.json(user)
   },
 
