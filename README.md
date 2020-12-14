@@ -87,7 +87,7 @@ See the [open issues](https://github.com/Tonybsilva-dev/Kabana/issues) for a lis
 <!-- PLAYLIST -->
 ## Playlist used
 
-[![Spotify Playlist](https://cdn0.iconfinder.com/data/icons/social-network-24/512/Spotify-128.png)](spotify:playlist:0hMS06CCHtFNR0fMK2KBZ8 "Javascript")
+[![Spotify Playlist](https://cdn0.iconfinder.com/data/icons/social-network-24/512/Spotify-128.png)](https://open.spotify.com/playlist/0hMS06CCHtFNR0fMK2KBZ8?si=ALYlc07RTmKGP0lNDW6MiQ)
 
 
 
