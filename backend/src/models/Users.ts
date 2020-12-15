@@ -13,6 +13,14 @@ const UserSchema = new mongoose.Schema({
   email: {
     type: String
   },
+  birth: {
+    type: Date,
+    required: true
+  },
+  cpf: {
+    type: String,
+    required: true
+  },
   address: {
     street: {
       type: String,
@@ -30,6 +38,10 @@ const UserSchema = new mongoose.Schema({
       type: String,
       required: true
     },
+    nationality: {
+      type: String,
+      required: true
+    },
     geo: {
       lat: {
         type: Number,
@@ -44,6 +56,9 @@ const UserSchema = new mongoose.Schema({
   phone: {
     type: String,
     required: true
+  },
+  emergency_phone:{
+    type: String
   },
   website: {
     type: String
