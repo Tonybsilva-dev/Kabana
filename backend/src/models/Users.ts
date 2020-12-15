@@ -63,7 +63,7 @@ const UserSchema = new mongoose.Schema({
   website: {
     type: String
   },
-  Company: {
+  company: {
     name: {
       type: String
     },
